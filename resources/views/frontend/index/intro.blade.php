@@ -2,7 +2,7 @@
     <div class="jumbotron jumbotron-fluid b-hero">
         <div class="container b-hero-inner">
             <h1 class="display-4 title">Amato Enrico</h1>
-            <p class="lead">Future Full Stack Developer </p>
+            <p class="lead">Future Full Stack Developer</p>
             <ul class="list-group list-group-horizontal b-links">
                 <li class="list-group-item b-links-item">
                     <a href="https://github.com/enricoamato">

@@ -1,14 +1,12 @@
-// Custom Theme
-// @import '~bootswatch/dist/cosmo/_variables.scss';
+// Custom Bootstrap Theme
+@import '~bootswatch/dist/cosmo/_variables.scss';
 @import '~bootstrap/scss/bootstrap';
-// @import '~bootswatch/dist/cosmo/_bootswatch.scss';
+@import '~bootswatch/dist/cosmo/_bootswatch.scss';
 
 // Font Awesome
 @import 'partials/fontawesome-all.scss';
 
 @import "partials/variables";
-@import 'header.scss';
-@import 'home.scss';
+@import 'intro.scss';
 @import 'footer.scss';
-// @import 'projects-quick-view.scss';
 @import 'skills.scss';
