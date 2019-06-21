@@ -6,10 +6,19 @@
         .info-long {
             padding-right: 5rem;
 
+            @media only screen and (max-width: 991px) {
+                padding: 1rem;
+            }
+
             h2 {
                 font-size: 2rem;
                 font-weight: 400;
                 margin-bottom: 20px;
+                color: #ffffff;
+
+                @media only screen and (max-width: 991px) {
+                    text-align: center;
+                }
             }
 
             &-inner {
@@ -19,6 +28,7 @@
                 }
 
                 ul {
+                    margin-top: 5px;
                     list-style-type: square;
                     font-style: italic;
                 }
@@ -30,6 +40,11 @@
                 font-size: 1.75rem;
                 font-weight: 400;
                 margin-bottom: 20px;
+                color: #ffffff;
+
+                @media only screen and (max-width: 991px) {
+                    text-align: center;
+                }
             }
 
             &-contact {

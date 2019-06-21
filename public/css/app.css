@@ -19362,10 +19362,23 @@ body.gradient {
   padding-right: 5rem;
 }
 
+@media only screen and (max-width: 991px) {
+  .footer .info-container .info-long {
+    padding: 1rem;
+  }
+}
+
 .footer .info-container .info-long h2 {
   font-size: 2rem;
   font-weight: 400;
   margin-bottom: 20px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 991px) {
+  .footer .info-container .info-long h2 {
+    text-align: center;
+  }
 }
 
 .footer .info-container .info-long-inner p {
@@ -19374,6 +19387,7 @@ body.gradient {
 }
 
 .footer .info-container .info-long-inner ul {
+  margin-top: 5px;
   list-style-type: square;
   font-style: italic;
 }
@@ -19382,6 +19396,13 @@ body.gradient {
   font-size: 1.75rem;
   font-weight: 400;
   margin-bottom: 20px;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 991px) {
+  .footer .info-container .info-short h4 {
+    text-align: center;
+  }
 }
 
 .footer .info-container .info-short-contact {
@@ -19399,83 +19420,51 @@ body.gradient {
   color: #ffffff;
 }
 
-.projects__quick-view__inner {
-  display: flex;
-  justify-content: space-around;
-}
-
-.projects__quick-view__inner .project-single {
-  text-align: center;
-  background-color: white;
-  border-radius: 0.25rem;
-  background-color: #fff;
-  padding: 0.75rem;
-}
-
-.projects__quick-view__inner .project-single p {
-  text-overflow: ellipsis;
-  overflow: hidden;
-  white-space: nowrap;
-}
-
-.projects__quick-view__inner .project-single a {
-  background-color: #17b6d9;
-  color: #fff;
-  padding: 0.25rem;
-  border-radius: 0.25rem;
-}
-
-.projects__quick-view__inner .project-single a:hover {
-  text-decoration: none;
-}
-
-section.skills h2 {
+section.skills .section-title {
   font-size: 3rem;
   color: #fff;
   text-align: center;
   font-style: italic;
   font-weight: 400;
+  margin-bottom: 8rem;
 }
 
-section.skills .skills-container {
-  margin-top: 120px;
-  margin-bottom: 50px;
+@media only screen and (max-width: 991px) {
+  section.skills .section-title {
+    margin-bottom: 0;
+  }
 }
 
-section.skills .skills-container .card {
+section.skills .box-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+section.skills .box-container .box {
   text-align: center;
   background-color: #333766;
+  border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
-section.skills .skills-container .card:hover {
+@media only screen and (min-width: 991px) {
+  section.skills .box-container .box {
+    max-width: 30%;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  section.skills .box-container .box {
+    margin-top: 120px;
+  }
+}
+
+section.skills .box-container .box:hover {
   transition: 0.4s ease-in-out;
   box-shadow: 0px 0px 20px 5px rgba(136, 136, 136, 0.52);
   transform: scale(1.015);
 }
 
-@media only screen and (max-width: 768px) {
-  section.skills .skills-container .card {
-    margin-bottom: 120px;
-  }
-}
-
-section.skills .skills-container .card .card-body {
-  padding: 0;
-  padding-top: 3rem;
-}
-
-section.skills .skills-container .card .card-body h5 {
-  font-size: 2.5rem;
-  color: #ffffff;
-}
-
-section.skills .skills-container .card .card-body p {
-  color: #ffffff;
-  padding-bottom: 30px;
-  font-style: italic;
-}
-
-section.skills .image-container-rounded-1 {
+section.skills .box-container .box .image-container-rounded-1 {
   background-image: url(/images/front-end.jpg?8a2ea9c2c31e481cee836b8d18afb3b6);
   background-size: cover;
   width: 120px;
@@ -19487,7 +19476,7 @@ section.skills .image-container-rounded-1 {
   top: -70px;
 }
 
-section.skills .image-container-rounded-2 {
+section.skills .box-container .box .image-container-rounded-2 {
   background-image: url(/images/laravel.png?c94f0d771ab580d59375a6a8949f5ab4);
   background-size: cover;
   width: 120px;
@@ -19499,8 +19488,8 @@ section.skills .image-container-rounded-2 {
   top: -70px;
 }
 
-section.skills .image-container-rounded-3 {
-  background-image: url(/images/blockchain.jpg?ac3e0ef…);
+section.skills .box-container .box .image-container-rounded-3 {
+  background-image: url(/images/blockchain.jpg?ac3e0ef421c855be43c32010aa06d363);
   background-size: cover;
   width: 120px;
   height: 120px;
@@ -19509,5 +19498,21 @@ section.skills .image-container-rounded-3 {
   left: 50%;
   margin-left: -60px;
   top: -70px;
+}
+
+section.skills .box-container .box .box-body {
+  padding: 0;
+  padding-top: 3rem;
+}
+
+section.skills .box-container .box .box-body h5 {
+  font-size: 2.5rem;
+  color: #ffffff;
+}
+
+section.skills .box-container .box .box-body p {
+  color: #ffffff;
+  padding-bottom: 30px;
+  font-style: italic;
 }
 

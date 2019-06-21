@@ -36995,8 +36995,8 @@ if (token) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\Enrico\Documents\Laravel\blog\resources\js\app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! C:\Users\Enrico\Documents\Laravel\blog\resources\sass\app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! C:\Users\Enrico\Documents\Web\Portfolio\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! C:\Users\Enrico\Documents\Web\Portfolio\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })

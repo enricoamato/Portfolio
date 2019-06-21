@@ -1,19 +1,33 @@
 section.skills {
-    h2 {
+    .section-title {
         font-size: 3rem;
         color: #fff;
         text-align: center;
         font-style: italic;
         font-weight: 400;
+        margin-bottom: 8rem;
+
+        @media only screen and (max-width: 991px) {
+            margin-bottom: 0;
+        }
     }
 
-    .skills-container {
-        margin-top: 120px;
-        margin-bottom: 50px;
+    .box-container {
+        display: flex;
+        justify-content: space-around;
 
-        .card {
+        .box {
             text-align: center;
             background-color: #333766;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            
+            @media only screen and (min-width: 991px) {
+                max-width: 30%;
+            }
+
+            @media only screen and (max-width: 991px) {
+                margin-top: 120px;
+            }
 
             &:hover {
                 transition: 0.4s ease-in-out;
@@ -21,11 +35,43 @@ section.skills {
                 transform: scale(1.015);
             }
 
-			@media only screen and (max-width: 768px) {
-				margin-bottom: 120px;
-			}
+            .image-container-rounded-1 {
+                background-image: url('../../public/assets/img/front-end.jpg');
+                background-size: cover;
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                position: absolute;
+                left: 50%;
+                margin-left: -60px;
+                top: -70px;
+            }
 
-            .card-body {
+            .image-container-rounded-2 {
+                background-image: url('../../public/assets/img/laravel.png');
+                background-size: cover;
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                position: absolute;
+                left: 50%;
+                margin-left: -60px;
+                top: -70px;
+            }
+
+            .image-container-rounded-3 {
+                background-image: url('../../public/assets/img/blockchain.jpg');
+                background-size: cover;
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                position: absolute;
+                left: 50%;
+                margin-left: -60px;
+                top: -70px;
+            }
+
+            .box-body {
                 padding: 0;
                 padding-top: 3rem;
 
@@ -36,46 +82,13 @@ section.skills {
 
                 p {
                     color: #ffffff;
-					padding-bottom: 30px;
+                    padding-bottom: 30px;
                     font-style: italic;
                 }
             }
+
         }
     }
 
-    .image-container-rounded-1 {
-        background-image: url('../../public/assets/img/front-end.jpg');
-        background-size: cover;
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        position: absolute;
-        left: 50%;
-        margin-left: -60px;
-        top: -70px;
-    }
 
-    .image-container-rounded-2 {
-        background-image: url('../../public/assets/img/laravel.png');
-        background-size: cover;
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        position: absolute;
-        left: 50%;
-        margin-left: -60px;
-        top: -70px;
-    }
-
-    .image-container-rounded-3 {
-        background-image: url(/images/blockchain.jpg?ac3e0ef…);
-        background-size: cover;
-        width: 120px;
-        height: 120px;
-        border-radius: 50%;
-        position: absolute;
-        left: 50%;
-        margin-left: -60px;
-        top: -70px;
-    }
 }

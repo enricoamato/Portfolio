@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container info-container">
         <div class="row">
-            <div class="col-md-8 info-long">
+            <div class="col-lg-8 col-md-12 info-long">
                 <h2>About Me</h2>
                 <div class="info-long-inner">
                     <p>
@@ -11,7 +11,7 @@
                         Nowadays I tend to code all of my projects from scratch in order to deliver a unique experience to every company.
                         Like many other people, I enjoy spending my free time increasing my knowledge of Web Development and building new and challenging projects.
                     </p>
-                    <bold>Some of my favorite things to do include: </bold> <br>
+                    <bold>Some of my favourite things to do include: </bold> <br>
                     <ul>
                         <li>Fixing some idiots' bug</li>
                         <li>Learning about the newest trend</li>
@@ -19,7 +19,7 @@
                     </ul>
                 </div>
             </div>
-            <div class="col-md-4 info-short">
+            <div class="col-lg-4 col-md-12 info-short">
                 <h4>Personal Info</h4>
                 <div class="info-short-contact">
                     <div class="icon-container">

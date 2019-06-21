@@ -1,4 +1,4 @@
-<div class="container">
+{{-- <div class="container">
     <div class="row projects__quick-view__inner">
         <div class="col-md-3 col-sm-12 project-single">
             <h5>Ad Astra</h3>
@@ -22,4 +22,4 @@
 			</div>
         </div>
     </div>
-</div>
+</div> --}}
