@@ -1,0 +1,84 @@
+html {
+    scroll-behavior: smooth !important;
+}
+
+body.gradient {
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.b-hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background: #0f0c29;
+    background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+
+    &-inner {
+        text-align: center;
+        color: white;
+
+        .title {
+            font-size: 4rem;
+        }
+
+        .b-links {
+            justify-content: center;
+            color: black;
+
+            &-item {
+                background-color: transparent;
+                border: none;
+
+                i {
+                    font-size: 2rem;
+                    color: $lightblue;
+                    
+                    &:hover {
+                        opacity: 1;
+                        transition: 0.75s;
+                        color: #ffffff;
+                    }
+                }
+            }
+        }
+    }
+
+    .scroll-down-container {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        bottom: 8%;
+        left: 50%;
+        margin-left: -25px;
+        cursor: pointer;
+
+        .scroller {
+            width: 100%;
+            height: 100%;
+            border: 2px solid #fff;
+            border-radius: 50%;
+
+            a {
+                display: block;
+                height: 100%;
+
+                i {
+                    color: white;
+					position: absolute;
+                    font-size: 2rem;
+                    bottom: 8px;
+                    left: 15px;
+                }
+            }
+
+
+        }
+    }
+
+}

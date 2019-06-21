@@ -1,0 +1,52 @@
+.footer {
+    .info-container {
+        padding: 5rem 3rem 2rem 3rem;
+        color: $text-primary;
+
+        .info-long {
+            padding-right: 5rem;
+
+            h2 {
+                font-size: 2rem;
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+
+            &-inner {
+                p {
+                    font-size: 1rem;
+                    text-align: justify;
+                }
+
+                ul {
+                    list-style-type: square;
+                    font-style: italic;
+                }
+            }
+        }
+
+        .info-short {
+            h4 {
+                font-size: 1.75rem;
+                font-weight: 400;
+                margin-bottom: 20px;
+            }
+
+            &-contact {
+                margin-bottom: 10px;
+                
+                .icon-container {
+                    display: inline-block;
+                    width: 20px;
+                    height: 20px;
+                    text-align: center;
+                }
+
+                a {
+                    color: #ffffff;
+                }
+            }
+        }
+    }
+
+}

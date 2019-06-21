@@ -1,0 +1,32 @@
+.projects__quick-view {
+    &__inner {
+        display: flex;
+        justify-content: space-around;
+
+        .project-single {
+            text-align: center;
+            background-color: white;
+            border-radius: 0.25rem;
+            background-color: #fff;
+            padding: 0.75rem;
+
+            p {
+                text-overflow: ellipsis;
+                overflow: hidden;
+                white-space: nowrap;
+            }
+
+            a {
+                background-color: $lightblue;
+                color: #fff;
+                padding: .25rem;
+                border-radius: 0.25rem;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+        }
+    }
+}
