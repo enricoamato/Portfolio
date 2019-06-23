@@ -12,6 +12,6 @@
 */
 
 Route::get('/', 'PagesController@home');
-Route::get('/{layout}/{template}', 'PagesController@test');
+Route::get('/{layout}/{theme}', 'PagesController@test');
 
 Auth::routes();

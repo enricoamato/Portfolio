@@ -11,11 +11,15 @@
     @yield('title')
     
     <!-- Styles -->
+    {{-- <link rel="stylesheet" href="{{ asset("../../../../node_modules/bootswatch/dist/materia/_variables.scss") }}"> --}}
+    {{-- <link rel="stylesheet" href="{{  }}"> --}}
+    {{-- <link rel="stylesheet" href="{{ asset("../../../../node_modules/bootswatch/dist/materia/_bootswatch.scss") }}"> --}}
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
     @yield('content')
     @yield('navbar')
+    <p>{{$theme}} has been loaded</p>
 
     <script src="{{ asset('js/app.js') }}"></script>
 </body>

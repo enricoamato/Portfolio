@@ -1,4 +1,4 @@
- @extends('frontend._layouts.master')
+ @extends('frontend._layouts.master-default')
 
 @section('content')
 	@include('frontend.index.intro')
