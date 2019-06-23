@@ -1,1 +1,1 @@
-This is my {{$id}}
+This is my {{$template_name}}

@@ -11,9 +11,9 @@ class PagesController extends Controller {
         return view('frontend.index.home');
     }
 
-    function test($id) {
+    function test($template_name) {
         $data = [];
-        $data['id'] = $id;
+        $data['template_name'] = $template_name;
 
         return view('test', $data);
     }
