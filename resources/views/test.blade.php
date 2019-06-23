@@ -1,1 +1,1 @@
-This is my {{$template_name}}
+I shall load this template "{{$layout}}"" with this theme "{{$theme}}""

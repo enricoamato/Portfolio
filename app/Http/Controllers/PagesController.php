@@ -11,9 +11,10 @@ class PagesController extends Controller {
         return view('frontend.index.home');
     }
 
-    function test($template_name) {
+    function test($layout, $theme) {
         $data = [];
-        $data['template_name'] = $template_name;
+        $data['layout'] = $layout;
+        $data['theme'] = $theme;
 
         return view('test', $data);
     }
