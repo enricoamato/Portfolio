@@ -13,8 +13,9 @@
     <!-- Styles -->
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
-<body class="gradient">
+<body>
     @yield('content')
+    @yield('navbar')
 
     <script src="{{ asset('js/app.js') }}"></script>
 </body>
