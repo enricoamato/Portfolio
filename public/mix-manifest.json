@@ -1,6 +1,7 @@
 {
     "/js/app.js": "/js/app.js",
-    "/css/cosmo.css": "/css/cosmo.css",
-    "/css/cyborg.css": "/css/cyborg.css",
-    "/css/pulse.css": "/css/pulse.css"
+    "/css/app.css": "/css/app.css",
+    "/css/themes/cosmo.css": "/css/themes/cosmo.css",
+    "/css/themes/cyborg.css": "/css/themes/cyborg.css",
+    "/css/themes/pulse.css": "/css/themes/pulse.css"
 }

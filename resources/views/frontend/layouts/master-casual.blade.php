@@ -12,13 +12,14 @@
     @yield('title')
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset("css/app.css") }}">
+    <link rel="stylesheet" href="{{ asset("css/themes/$theme.css") }}">
 </head>
 
-<body class="gradient">
+<body>
+    {{ $theme }}
     @yield('content')
-    @yield('button')
     @yield('footer')
+    @yield('button')
 
     <script src="{{ asset('js/app.js') }}"></script>
 </body>

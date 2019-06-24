@@ -12,7 +12,7 @@
     @yield('title')
 
     <!-- Styles -->
-    <link rel="stylesheet" href="{{ asset("css/$theme.css") }}">
+    <link rel="stylesheet" href="{{ asset("css/themes/$theme.css") }}">
     {{-- <link rel="stylesheet" href="{{ asset("css/app.css") }}"> --}}
 </head>
 
