@@ -1,11 +1,9 @@
 // Custom Bootstrap Theme
 @import '~bootstrap/scss/bootstrap';
 
-
 // Custom
 @import 'partials/variables.scss';
-
 @import 'partials/fontawesome-all.scss';
-@import 'intro.scss';
-@import 'footer.scss';
-@import 'skills.scss';
+@import 'home/intro.scss';
+@import 'home/footer.scss';
+@import 'home/skills.scss';

@@ -17,7 +17,7 @@
 </head>
 
 <body>
-    {{ $theme }}
+    {{-- <h2>This is the {{ $theme }} theme</h2> --}}
     @yield('footer')
     @yield('button')
     @yield('content')
