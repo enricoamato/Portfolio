@@ -1,9 +1,9 @@
-@extends("frontend.layouts.master-$layout")
+@extends("frontend.layouts.$layout")
 
 @section('content')
 	<section>
 		<div class="jumbotron">
-			<h1 class="display-4">This is component No. 1</h1>
+			<h1 class="display-4">This is component No. 1A</h1>
 			<p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to
 				featured content or information.</p>
 			<hr class="my-4">
@@ -20,7 +20,7 @@
 		<h4>This is component No. 2</h4>
 		<button type="button" class="btn btn-primary">Primary</button>
 		<button type="button" class="btn btn-secondary">Secondary</button>
-		<button type="button" class="btn btn-success">Success</button>
+		<button type="button" class="btn btn-success success-custom">Success</button>
 		<button type="button" class="btn btn-danger">Danger</button>
 		<button type="button" class="btn btn-warning">Warning</button>
 		<button type="button" class="btn btn-info">Info</button>
