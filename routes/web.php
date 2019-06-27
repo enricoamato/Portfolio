@@ -15,3 +15,7 @@ Route::get('/', 'PagesController@home');
 Route::get('/{layout}/{theme}', 'PagesController@test');
 
 Auth::routes();
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
