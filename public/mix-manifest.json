@@ -1,3 +1,7 @@
 {
-    "/css/themes/cyborg.css": "/css/themes/cyborg.css"
+    "/css/app.css": "/css/app.css",
+    "/css/book.css": "/css/book.css",
+    "/css/themes/cosmo.css": "/css/themes/cosmo.css",
+    "/css/themes/cyborg.css": "/css/themes/cyborg.css",
+    "/css/themes/pulse.css": "/css/themes/pulse.css"
 }

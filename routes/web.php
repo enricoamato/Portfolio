@@ -14,6 +14,7 @@
 Route::get('/', 'PagesController@home');
 Route::get('/{layout}/{theme}', 'PagesController@test');
 Route::get('/projects', 'ProjectsController@index');
+Route::get('/books', 'BooksController@index');
 
 Auth::routes();
 
